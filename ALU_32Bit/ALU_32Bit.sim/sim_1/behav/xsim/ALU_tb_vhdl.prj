@@ -1,0 +1,18 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../ALU_32Bit.srcs/sources_1/new/ALU_pkg.vhd" \
+"../../../../ALU_32Bit.srcs/sources_1/new/ALS.vhd" \
+"../../../../ALU_32Bit.srcs/sources_1/new/ALU_32Bit.vhd" \
+"../../../../ALU_32Bit.srcs/sources_1/new/ARS.vhd" \
+"../../../../ALU_32Bit.srcs/sources_1/new/Carry_Select_Adder_32Bit.vhd" \
+"../../../../../MUX/MUX.srcs/sources_1/new/FourToOne_MUX.vhd" \
+"../../../../ALU_32Bit.srcs/sources_1/new/Full_Adder.vhd" \
+"../../../../ALU_32Bit.srcs/sources_1/new/LLS.vhd" \
+"../../../../ALU_32Bit.srcs/sources_1/new/LRS.vhd" \
+"../../../../ALU_32Bit.srcs/sources_1/new/Mux2_1.vhd" \
+"../../../../../MUX/MUX.srcs/sources_1/new/SixteenToOne_MUX.vhd" \
+"../../../../../MUX/MUX.srcs/sources_1/new/TwoToOne_MUX.vhd" \
+"../../../../ALU_32Bit.srcs/sources_1/new/ALU_tb.vhd" \
+
+# Do not sort compile order
+nosort

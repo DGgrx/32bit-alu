@@ -1,0 +1,26 @@
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_tb_behav xil_defaultlib.ALU_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package xil_defaultlib.alu_pkg
+Compiling architecture dataflow of entity xil_defaultlib.TwoToOne_MUX [twotoone_mux_default]
+Compiling architecture behavior of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture bhv of entity xil_defaultlib.Mux2_1 [mux2_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Carry_Select_Adder_32Bit [carry_select_adder_32bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.LLS [lls_default]
+Compiling architecture behavioral of entity xil_defaultlib.LRS [lrs_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALS [als_default]
+Compiling architecture behavioral of entity xil_defaultlib.ARS [ars_default]
+Compiling architecture dataflow of entity xil_defaultlib.FourToOne_MUX [fourtoone_mux_default]
+Compiling architecture structural of entity xil_defaultlib.SixteenToOne_MUX [sixteentoone_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU_32Bit [alu_32bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu_tb
+Built simulation snapshot ALU_tb_behav

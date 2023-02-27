@@ -1,0 +1,161 @@
+/*
+
+Xilinx Vivado v2021.2 (64-bit) [Major: 2021, Minor: 2]
+SW Build: 3367213 on Tue Oct 19 02:48:09 MDT 2021
+IP Build: 3369179 on Thu Oct 21 08:25:16 MDT 2021
+
+Process ID (PID): 19204
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Thu May 05 01:00:20 IST 2022
+Time zone: 	India Standard Time (Asia/Calcutta)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 150
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=18
+Scale size: 27
+
+Java version: 	11.0.11 64-bit
+Java home: 	D:/Xilinx/Vivado/2021.2/tps/win64/jre11.0.11_9
+Java executable: 	D:/Xilinx/Vivado/2021.2/tps/win64/jre11.0.11_9/bin/java.exe
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.d3d=false, -Dsun.awt.nopixfmt=true, -Dsun.java2d.dpiaware=true, -Dsun.java2d.uiScale.enabled=false, -Xverify:none, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/com.sun.awt=ALL-UNNAMED, -XX:NewSize=60m, -XX:MaxNewSize=60m, -Xms256m, -Xmx3072m, -Xss5m]
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	divya
+User home directory: C:/Users/divya
+User working directory: C:/Users/divya/OneDrive/Documents/College/4th Sem/Vivado/ALU_32Bit
+User country: 	IN
+User language: 	en
+User locale: 	en_IN
+
+RDI_BASEROOT: D:/Xilinx/Vivado
+HDI_APPROOT: D:/Xilinx/Vivado/2021.2
+RDI_DATADIR: D:/Xilinx/Vivado/2021.2/data
+RDI_BINDIR: D:/Xilinx/Vivado/2021.2/bin
+
+Vivado preferences file: C:/Users/divya/AppData/Roaming/Xilinx/Vivado/2021.2/vivado.xml
+Vivado preferences directory: C:/Users/divya/AppData/Roaming/Xilinx/Vivado/2021.2/
+Vivado layouts directory: C:/Users/divya/AppData/Roaming/Xilinx/Vivado/2021.2/data/layouts
+PlanAhead jar file: 	D:/Xilinx/Vivado/2021.2/lib/classes/planAhead.jar
+Vivado log file: 	C:/Users/divya/OneDrive/Documents/College/4th Sem/Vivado/ALU_32Bit/vivado.log
+Vivado journal file: 	C:/Users/divya/OneDrive/Documents/College/4th Sem/Vivado/ALU_32Bit/vivado.jou
+Engine tmp dir: 	C:/Users/divya/OneDrive/Documents/College/4th Sem/Vivado/ALU_32Bit/.Xil/Vivado-19204-LAPTOP-22D1JURG
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/Xilinx/Vivado/2021.2/ids_lite/ISE
+XILINX_DSP: D:/Xilinx/Vivado/2021.2/ids_lite/ISE
+XILINX_HLS: D:/Xilinx/Vitis_HLS/2021.2
+XILINX_PLANAHEAD: D:/Xilinx/Vivado/2021.2
+XILINX_VIVADO: D:/Xilinx/Vivado/2021.2
+XILINX_VIVADO_HLS: D:/Xilinx/Vivado/2021.2
+
+
+GUI allocated memory:	381 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,253 MB
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: C:\Users\divya\OneDrive\Documents\College\4th Sem\Vivado\ALU_32Bit\ALU_32Bit.xpr. Version: Vivado v2021.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project {C:/Users/divya/OneDrive/Documents/College/4th Sem/Vivado/ALU_32Bit/ALU_32Bit.xpr} 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/divya/OneDrive/Documents/College/4th Sem/Vivado/ALU_32Bit/ALU_32Bit.xpr} 
+// Tcl Message: INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/divya/OneDrive/Documents/College/4th Sem/Vivado/ALU_32Bit/ALU_32Bit.gen/sources_1'. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,253 MB. GUI used memory: 63 MB. Current time: 5/5/22, 1:00:21 AM IST
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 102 MB (+104625kb) [00:00:11]
+// [Engine Memory]: 1,253 MB (+1162861kb) [00:00:11]
+// WARNING: HEventQueue.dispatchEvent() is taking  3083 ms.
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2021.2/data/ip'. 
+// [GUI Memory]: 121 MB (+13984kb) [00:00:13]
+// Project name: ALU_32Bit; location: C:/Users/divya/OneDrive/Documents/College/4th Sem/Vivado/ALU_32Bit; part: xc7a12ticsg325-1L
+// Tcl Message: open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:08 . Memory (MB): peak = 1220.148 ; gain = 0.000 
+dismissDialog("Open Project"); // bA
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // n - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Tcl Message: update_compile_order -fileset sources_1 
+dismissDialog("Elaborate Design"); // A
+// Tcl Message: synth_design -rtl -rtl_skip_mlo -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -rtl_skip_mlo -name rtl_1 Starting synth_design Using part: xc7a12ticsg325-1L Top: ALU_32Bit 
+// TclEventType: ELABORATE_START
+// HMemoryUtils.trashcanNow. Engine heap size: 1,474 MB. GUI used memory: 73 MB. Current time: 5/5/22, 1:00:41 AM IST
+// TclEventType: ELABORATE_FINISH
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,611 MB. GUI used memory: 72 MB. Current time: 5/5/22, 1:00:49 AM IST
+// [Engine Memory]: 1,611 MB (+309298kb) [00:00:38]
+// [GUI Memory]: 127 MB (+157kb) [00:00:38]
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgdAndInitRouteStorage elapsed time: 1.9s
+// [GUI Memory]: 151 MB (+18578kb) [00:00:45]
+// WARNING: HEventQueue.dispatchEvent() is taking  6882 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Device 21-403] Loading part xc7a12ticsg325-1L 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1679.492 ; gain = 332.762 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1759.367 ; gain = 412.637 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1759.367 ; gain = 412.637 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1759.367 ; gain = 412.637 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.048 . Memory (MB): peak = 1759.367 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Completed Processing XDC Constraints  
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1824.020 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1894.211 ; gain = 547.480 
+// Tcl Message: 126 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1894.211 ; gain = 674.062 
+// 'el' command handler elapsed time: 29 seconds
+// Elapsed time: 27 seconds
+dismissDialog("Open Elaborated Design"); // bA
+// WARNING: HEventQueue.dispatchEvent() is taking  1449 ms.
+floatFrame(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // aA
+// PAResourceOtoP.PAViews_SCHEMATIC: Schematic: float view
+maximizeFrame(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // aA
+// PAPropertyPanels.initPanels (Y1_i (RTL_LEQ)) elapsed time: 0.2s
+// [GUI Memory]: 161 MB (+2789kb) [00:03:19]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,611 MB. GUI used memory: 105 MB. Current time: 5/5/22, 1:30:52 AM IST
+// PAPropertyPanels.initPanels (y_anot_i_n_0) elapsed time: 0.2s
+// HMemoryUtils.trashcanNow. Engine heap size: 1,611 MB. GUI used memory: 97 MB. Current time: 5/5/22, 2:00:52 AM IST

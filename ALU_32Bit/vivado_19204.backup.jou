@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Thu May  5 01:00:08 2022
+# Process ID: 19204
+# Current directory: C:/Users/divya/OneDrive/Documents/College/4th Sem/Vivado/ALU_32Bit
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21132 C:\Users\divya\OneDrive\Documents\College\4th Sem\Vivado\ALU_32Bit\ALU_32Bit.xpr
+# Log file: C:/Users/divya/OneDrive/Documents/College/4th Sem/Vivado/ALU_32Bit/vivado.log
+# Journal file: C:/Users/divya/OneDrive/Documents/College/4th Sem/Vivado/ALU_32Bit\vivado.jou
+# Running On: LAPTOP-22D1JURG, OS: Windows, CPU Frequency: 1996 MHz, CPU Physical cores: 8, Host memory: 7968 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/divya/OneDrive/Documents/College/4th Sem/Vivado/ALU_32Bit/ALU_32Bit.xpr}
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
